@@ -120,33 +120,33 @@
         <br />
         <table class="visibleTable">
             <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style3">
+                <th>&nbsp;</th>
+                <th>
                     <asp:Label ID="lblProduct" runat="server" Text="Product"></asp:Label>
-                </td>
-                <td class="auto-style4">
+                </th>
+                <th>
                     <asp:Label ID="lblDateOpened" runat="server" Text="Date Opened"></asp:Label>
-                </td>
-                <td class="auto-style5">
+                </th>
+                <th>
                     <asp:Label ID="lblDateClosed" runat="server" Text="Date Closed"></asp:Label>
-                </td>
-                <td class="auto-style6">
+                </th>
+                <th>
                     <asp:Label ID="lblTitle" runat="server" Text="Title"></asp:Label>
-                </td>
+                </th>
             </tr>
             <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style6">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style6">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
         </table>
         <br />
