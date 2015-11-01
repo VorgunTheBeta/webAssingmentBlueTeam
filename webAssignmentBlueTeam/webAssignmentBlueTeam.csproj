@@ -60,6 +60,11 @@
     <Content Include="AddIncident.aspx" />
     <Content Include="AddRegistration.aspx" />
     <Content Include="CustomerIncidents.aspx" />
+    <Content Include="database\create_TechSupport.sql" />
+    <Content Include="database\TechSupport.mdf" />
+    <Content Include="database\TechSupport_log.ldf">
+      <DependentUpon>TechSupport.mdf</DependentUpon>
+    </Content>
     <Content Include="Design Tester.html" />
     <Content Include="images\textBackground.png" />
     <Content Include="ProductMaintenance.aspx" />
@@ -92,12 +97,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TechnicalMaintenance.aspx.cs">
       <DependentUpon>TechnicalMaintenance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TechnicalMaintenance.aspx.designer.cs">
       <DependentUpon>TechnicalMaintenance.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="database\create_TechSupport.bat" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

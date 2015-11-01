@@ -67,6 +67,10 @@
         <asp:Label ID="lblPhone" runat="server" Text="Phone:"></asp:Label>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="txtPhone" runat="server" style="margin-left: 5px"></asp:TextBox>
+        <br />
+        <br />
+        <asp:GridView ID="GridView1" runat="server">
+        </asp:GridView>
     </div>
     </form>
         </div>
